@@ -1,14 +1,14 @@
 # Личный проект «Седона»
 
 * Студент: [Екатерина Климахина](https://up.htmlacademy.ru/htmlcss-individual/1/user/2457563).
-* Наставник: `Неизвестно`.
+* Наставник: `Ирина  Антипина. (https://htmlacademy.ru/profile/id2108789)
 
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
 _`.editorconfig`, `.gitattributes`, `.gitignore`, `Contributing.md`, `Readme.md`._
 
----
+---тест2
 
 ### Памятка
 
