@@ -7,7 +7,7 @@
 <body>
     <header>
         <nav class="menu"
-        img src="#" alt="логотип Седоны"
+        img src="#" alt="логотип города Седоны"
         <ul class="menu item">
             <li>
                 <a href="index.ru">Главная</a>
@@ -104,7 +104,9 @@
 <!--количество не знаю как указать-->
 <ul class="select"
 <li>
-<!---->выпадающий список не понимаю как сделать-->
+<select name="cheap">
+    <option value="cheap">Сначала дешевые</option>
+</select>
 </li>
 <li>
     <a href=""
@@ -125,13 +127,13 @@
     <img src="" alt="вид из гостиницы"
     <p><b>Amara Resort & Spa</b></p>
     <p>Гостиница</p>
-    <!-- от 4000р это текст или фильтр?-->
+    <p>от 4000</p>
 </li>
 <li>
-    <button>подробнее</button>
+    <button type="">подробнее</button>
 </li>
 <li>
-    <button>избранное</button>
+    <button type="">избранное</button>
 </li>
 </ul>
 <ul class="raiting">
@@ -139,11 +141,11 @@
     <li><img src="" alt="звезда1"</li>
     <li><img src="" alt="звезда1"</li>
     <li><img src="" alt="звезда1"</li>
-<li><!-- не знаю как оформить рейтинг--></li>
+<p>Рейтинг 8,5</p>
 </ul>
 </section>
 
-<!--остальные гостиницы оформлю после проверки дз-->
+<!--остальные гостиницы оформлю после проверки дз по аналогии-->
 
 <ul class="pagination">
 <li>
@@ -162,17 +164,35 @@
     <span class="visually-hidden">список выбранных гостиниц на десятой  странице</span></a></li>
 </ul>
 
-<section class="subscribe"
+<section class="subscribe">
 <h2>Подпишитесь на рассылку</h2>
 <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
+<form action="https://echo.htmlacademy.ru/courses" method="post">
+    <input type="text" id="e-mail" name="email" placeholder="ваш-e-mail" required>
+<label class="visually-hidden" for="email">Введите ваш e-mail</label>
+<button type="submit">Подписаться</button>
+</form>
+</section>
+</main>
+<footer class="contact">
+    <ul class="socialnetworks">
+        <li>
+    <a href="https://vk.com/htmlacademy"class="socialnetworks">
+    <span class="visually-hidden"alt="переход на сайт в контакте"></span></a>
+        </li>
+        <li>
+    <a href=" https://t.me/htmlacademy "class="socialnetworks"
+        <span class="visually-hidden" alt="переход в телеграмм "></span></a>
+    </li>
+    <li>
+    <a href=" https://www.youtube.com/user/htmlacademyru"class="socialnetworks"
+        <span class="visually-hidden" alt="ютюб"></span></a>
+        </li>
+    </ul>
+  <p> +7(812)812-12-12</p>
+    <a href="https://htmlacademy.ru/>
+    <span class="visually-hidden" alt="переход на сайт разработчика"</span></a>
+   </footer>
 
-
-
-
-
-
-
-
-            </main>
     </head>
 </body>
